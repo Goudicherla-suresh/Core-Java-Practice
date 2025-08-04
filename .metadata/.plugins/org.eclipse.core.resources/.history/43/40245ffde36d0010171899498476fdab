@@ -1,0 +1,28 @@
+package JavaSessions;
+
+public class Emp {
+	String ename;
+	String designation;
+	int sal;
+	 Emp(String ename,String designation,int sal){
+		this.ename=ename;
+		this.designation=designation;
+		this.sal=sal;
+		}
+	Emp(String ename,Emp e){
+		this.ename=ename;
+		this.designation=designation;
+		this.sal=sal;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Emp e1=new Emp("Dinga","Software Engineer",250000);
+		Emp e2=new Emp("Guldu",e1);
+		Emp e3=new Emp("Nibba",e1);
+		System.out.println(e1.ename+" "+ e1.designation + " " + e1.sal);
+		System.out.println(e2.ename+" "+ e2.designation + " " + e2.sal);
+		System.out.println(e3.ename+" "+ e3.designation + " " + e3.sal);
+	}
+
+}

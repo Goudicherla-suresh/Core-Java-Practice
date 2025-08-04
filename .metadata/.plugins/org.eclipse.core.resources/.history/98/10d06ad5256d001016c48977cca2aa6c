@@ -1,0 +1,39 @@
+package com.Flipkart;
+
+public class bank {
+	
+	String Accname;
+	long Accno;
+	double balance;
+	
+	public bank(String Accname,long Accno,double balance)
+	{
+		this.Accname=Accname;
+		this.Accno=Accno;
+		this.balance=balance;
+	}
+	
+	
+	void Checkbal() {
+		System.out.println("Your Current Balance is: " +this.balance);
+	}
+	void withdraw(double amt) {
+		 	if(this.balance>=amt) {
+		 		this.balance=this.balance-amt;
+		 	}
+		 	else {
+		 		System.out.println("insufficient funds");
+		 	}
+		 	
+	}
+	void deposit(double amt) {
+			
+	}
+	
+	public static void main(String[] args) {
+		bank b1=new bank("Suresh",922101197747l,10000);
+		b1.Checkbal();
+		b1.withdraw(1000);
+		b1.Checkbal();
+	}
+}

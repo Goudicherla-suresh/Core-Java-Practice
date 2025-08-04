@@ -1,0 +1,21 @@
+
+public class TestVehicle {
+
+	public static void main(String[] args) {
+		Vehicle v1=new car("Suzuki" , 200 , "petrol");
+		Vehicle v2=new Bike("Yamaha" , 160 , 125);
+		
+		v1.showDetails();
+		if( v1  instanceof car ) {
+			car c=(car)v1;
+			System.out.println("Car Specific Details : " + c.getFueltype());
+		}
+		
+		
+		v2.showDetails();
+		if(v2 instanceof Bike) {
+			Bike b=(Bike)v2;
+			System.out.println("Bike Specific details : " + b.getEngineCC());
+		}
+	}
+}

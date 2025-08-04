@@ -1,0 +1,21 @@
+package com.Flipkart;
+
+public class Product {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name;
+		double price;
+		
+		 void displayProduct() {
+			 
+			System.out.println("Name of The Product is: " + name);
+			
+            System.out.println("Price of  The Product is: " + price);		
+		}
+		
+
+	}
+
+}

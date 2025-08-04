@@ -1,0 +1,18 @@
+package com.Flipkart;
+
+public class Paramaterised_Con {
+	
+	String color;
+	public Paramaterised_Con(String color) {
+		this.color=color;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Paramaterised_Con p1=new Paramaterised_Con("Red");
+		System.out.println(p1.color);
+			
+	}
+
+}

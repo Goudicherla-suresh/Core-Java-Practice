@@ -1,0 +1,17 @@
+package com.Flipkart;
+
+public class Electronic extends Product {
+	
+	String brand;
+	int warranty;
+	
+	void displayElectronic() {
+		
+		System.out.println("Name of The Product is: " + name);
+		System.out.println("Price of  The Product is: " + price);	
+        
+		System.out.println("The Brand of the product is:" + brand);
+		System.out.println("The Warrenty of the product is:" + warranty);
+	}
+
+}

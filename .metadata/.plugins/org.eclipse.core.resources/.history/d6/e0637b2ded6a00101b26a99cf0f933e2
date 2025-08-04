@@ -1,0 +1,20 @@
+package com.Flipkart;
+
+public class Product {
+
+	
+		
+		String name;
+		double price;
+		
+		 void displayProduct() {
+			 
+			System.out.println("Name of The Product is: " + name);
+			
+            System.out.println("Price of  The Product is: " + price);		
+		}
+		
+
+	}
+
+

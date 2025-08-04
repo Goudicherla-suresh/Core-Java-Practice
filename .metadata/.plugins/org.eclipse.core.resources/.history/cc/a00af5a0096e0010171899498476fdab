@@ -1,0 +1,60 @@
+package JavaSessions;
+
+public class Student1 {
+
+	private String sname;
+	private double perc;
+	private int Age;
+	
+	
+	public void setsname(String sname) {
+		this.sname=sname;
+	}
+	public String getsname() {
+		return this.sname;
+	}
+//-----------------------------------
+	
+	public void setperc(double perc) {
+		if(perc>35.0 && perc<=100) {
+			this.perc=perc;
+		}
+		else {
+			System.out.println("Invalid");
+		}
+		}
+	
+		public double getperc() {
+			return this.perc;
+		}
+//------------------------------------
+		
+		public void setAge(int Age) {
+			if(Age>15 && Age<=45) {
+				this.Age=Age;
+			}
+			else {
+				System.out.println("Invalid");
+			}
+		}
+		public int getAge() {
+			return this.Age;
+		}
+//-------------------------------------
+		
+	
+		
+	public static void main(String[] args) {
+		
+		Student1 s1=new Student1();
+//		s1.sname="Dinga";
+		
+		s1.setsname("dingi");
+		s1.setperc(53.2);
+		s1.setAge(18);
+		
+		System.out.println("The Name is: " + s1.sname + " " + "The Age is: " + s1.Age + " " + "The Percentage is: " + s1.perc);
+
+	}
+
+}

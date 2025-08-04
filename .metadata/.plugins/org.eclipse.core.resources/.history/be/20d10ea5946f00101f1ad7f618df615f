@@ -1,0 +1,9 @@
+package JavaSessions;
+
+public class Cricketplayer extends Player {
+
+	void play() {
+		System.out.println("Cricket Player Plays");
+	}
+
+}

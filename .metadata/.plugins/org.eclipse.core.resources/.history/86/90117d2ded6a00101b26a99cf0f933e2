@@ -1,0 +1,9 @@
+package com.Flipkart;
+
+public class Electronic extends Product {
+	
+	String brand;
+	int warranty;
+	
+
+}

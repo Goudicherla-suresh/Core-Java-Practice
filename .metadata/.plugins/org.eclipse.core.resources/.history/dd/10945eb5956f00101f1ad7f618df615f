@@ -1,0 +1,31 @@
+package JavaSessions;
+
+public class Player {
+	
+	void play() {
+		System.out.println("Player Plays");
+	
+	}
+	public class CricketPlayer extends Player{
+		
+		
+		void play() {
+			System.out.println("Cricket Player Plays");
+		}
+	}
+	
+	public class footballplayer extends Player{
+		void play() {
+			System.out.println("Football Player Plays");
+		}
+	}
+	
+	public static void main(String[] args) {
+		Player p1=new Player();
+		Player p2=new CricketPlayer();
+		Player p3=new footballplayer();
+		p1.play();
+		p2.play();
+		p3.play();
+	}
+}

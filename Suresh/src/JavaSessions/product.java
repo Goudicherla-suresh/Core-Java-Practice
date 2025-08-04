@@ -1,0 +1,23 @@
+package JavaSessions;
+
+public class product {
+	
+	product(){
+		System.out.println("zero param");
+	}
+	product(double d){
+		this("ps");
+		System.out.println("double param");
+	}
+	product(String s){
+		this();
+		System.out.println("String param");
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		product p=new product(20.5);
+	}
+
+}

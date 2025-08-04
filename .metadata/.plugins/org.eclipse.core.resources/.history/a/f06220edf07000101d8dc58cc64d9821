@@ -1,0 +1,8 @@
+
+public class TestVehicle {
+
+	public static void main(String[] args) {
+		Vehicle v1=new car("Suzuki", 200, "petrol");
+		Vehicle v2=new Bike("Yamaha", 160, 125);
+	}
+}

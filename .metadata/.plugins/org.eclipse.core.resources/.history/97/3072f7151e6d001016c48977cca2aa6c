@@ -1,0 +1,24 @@
+package com.Flipkart;
+import java.util.*;
+
+public class Paramaterised_Con {
+	
+	String color;
+	public Paramaterised_Con(String color) {
+		this.color=color;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the 1st Color");
+		String S=sc.next();		
+		Paramaterised_Con p1=new Paramaterised_Con(S);
+		System.out.println(p1.color);
+		System.out.println("Enter the 2nd Color");
+		String S1=sc.next();	
+		Paramaterised_Con p2=new Paramaterised_Con(S1);
+		System.out.println(p2.color);
+	}
+
+}

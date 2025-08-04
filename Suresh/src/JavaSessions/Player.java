@@ -1,0 +1,11 @@
+package JavaSessions;
+
+public class Player {
+	
+	void play() {
+		System.out.println("Player Plays");
+	
+	}
+
+	
+}

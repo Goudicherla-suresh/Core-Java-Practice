@@ -1,0 +1,12 @@
+package com.Flipkart;
+
+public class Clothing extends Product{
+ 
+	String size;
+	String material;
+	
+	
+	
+	
+
+}

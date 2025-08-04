@@ -1,0 +1,25 @@
+package com.Flipkart;
+
+public class User {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Electronic e=new Electronic();
+		Clothing c=new Clothing();
+		
+		e.name="Laptop";
+		e.price=50000.0;
+		e.brand="Asus";
+		e.warranty=2;
+		e.displayProduct();
+		
+		System.out.println("-----------------------------------");
+		c.name="Shirt";
+		c.price=500;
+		c.size="XL";
+		c.material="Polyster";
+		c.displayProduct();
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.Flipkart;
+
+public class Clothing extends Product{
+ 
+	String size;
+	String material;
+	
+	void displayProduct() {
+//		System.out.println("Name of The Product is: " + name);
+//		System.out.println("Price of  The Product is: " + price);
+		System.out.println("The Size of the product is:" + size);
+		System.out.println("The material of the product is:" + material);
+	}
+	
+	
+
+}
